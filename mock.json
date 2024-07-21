@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "user_id": "C001",
+      "user_role": "CUSTOMER",
+      "bank_id": "BANK001",
+      "managed_accounts": [],
+      "managed_banks": [],
+      "watchlist": ["ACB", "VIC", "HPG"]
+    },
+    {
+      "user_id": "C002",
+      "user_role": "CUSTOMER",
+      "bank_id": "BANK002",
+      "managed_accounts": [],
+      "managed_banks": [],
+      "watchlist": ["VNM"]
+    },
+    {
+      "user_id": "C003",
+      "user_role": "CUSTOMER",
+      "bank_id": "BANK003",
+      "managed_accounts": [],
+      "managed_banks": [],
+      "watchlist": ["HPG"]
+    },
+    {
+      "user_id": "B001",
+      "user_role": "BROKER",
+      "bank_id": "BANK004",
+      "managed_accounts": ["C003"],
+      "managed_banks": [],
+      "watchlist": ["ACB", "VIC", "HPG", "VNM"]
+    },
+    {
+      "user_id": "BNK001",
+      "user_role": "BANK",
+      "bank_id": "BANK005",
+      "managed_accounts": [],
+      "managed_banks": ["BANK001", "BANK002"],
+      "watchlist": ["ACB", "VIC", "HPG", "VNM", "FPT"]
+    },
+    {
+      "user_id": "A001",
+      "user_role": "ADMIN",
+      "bank_id": "BANK006",
+      "managed_banks": [],
+      "managed_accounts": [],
+      "watchlist": []
+    }
+  ],
+  "stocks": [
+    { "code": "ACB", "name": "Asia Commercial Bank" },
+    { "code": "VIC", "name": "Vingroup" },
+    { "code": "HPG", "name": "Hoa Phat Group" },
+    { "code": "VNM", "name": "Vinamilk" },
+    { "code": "FPT", "name": "FPT Corporation" },
+    { "code": "MSN", "name": "Masan Group" }
+  ]
+}
